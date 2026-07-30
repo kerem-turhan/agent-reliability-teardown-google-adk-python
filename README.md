@@ -89,7 +89,7 @@ official `openai/openai-agents-js` example and reported as
 [openai/openai-agents-js#1544](https://github.com/openai/openai-agents-js/issues/1544). That
 teardown, with its own six-case harness, is at
 [agent-reliability-teardown-openai-agents-js](https://github.com/kerem-turhan/agent-reliability-teardown-openai-agents-js).
-Two vendors, two frozen commits, one shape.
+Two vendors, two frozen commits, the same accounting mistake.
 
 ## License and attribution
 
