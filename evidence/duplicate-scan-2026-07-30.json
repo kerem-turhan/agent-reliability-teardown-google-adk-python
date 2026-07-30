@@ -1,0 +1,2618 @@
+{
+  "scannedAt": "2026-07-30",
+  "repository": "google/adk-python",
+  "queryCount": 27,
+  "totalHits": 267,
+  "queries": [
+    {
+      "index": 1,
+      "term": "adk_stale_agent",
+      "query": "repo:google/adk-python adk_stale_agent in:title,body",
+      "totalCount": 4,
+      "hits": [
+        {
+          "url": "https://github.com/google/adk-python/issues/5696",
+          "number": 5696,
+          "title": "Triaging agent workflows fail with 404 on gemini-2.5-pro via Gemini Developer API",
+          "state": "closed",
+          "createdAt": "2026-05-13T19:16:31Z",
+          "updatedAt": "2026-05-14T05:04:40Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/4041",
+          "number": 4041,
+          "title": "fix: ignore adk-bot administrative actions in stale agent",
+          "state": "closed",
+          "createdAt": "2025-12-30T03:41:48Z",
+          "updatedAt": "2026-02-24T23:25:50Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/3938",
+          "number": 3938,
+          "title": "fix: Prevent stale bot from flagging internal maintainer discussions",
+          "state": "closed",
+          "createdAt": "2025-12-17T00:02:38Z",
+          "updatedAt": "2025-12-30T03:06:48Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/3700",
+          "number": 3700,
+          "title": "fix: Optimize Stale Agent with GraphQL and Search API to resolve 429 Quota errors",
+          "state": "closed",
+          "createdAt": "2025-11-24T22:17:23Z",
+          "updatedAt": "2025-12-02T19:40:56Z",
+          "pullRequest": true
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "term": "\"Successfully processed\"",
+      "query": "repo:google/adk-python \"Successfully processed\" in:title,body",
+      "totalCount": 9,
+      "hits": [
+        {
+          "url": "https://github.com/google/adk-python/issues/2466",
+          "number": 2466,
+          "title": "Claude in Vertex AI does not support GCS or URL-based file ingestion via ADK",
+          "state": "open",
+          "createdAt": "2025-08-11T09:06:57Z",
+          "updatedAt": "2026-03-26T00:58:01Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/3286",
+          "number": 3286,
+          "title": "fix(anthropic): allow images in user messages while filtering model turns",
+          "state": "closed",
+          "createdAt": "2025-10-26T15:16:24Z",
+          "updatedAt": "2026-05-02T00:21:08Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/5311",
+          "number": 5311,
+          "title": "BigQueryAgentAnalyticsPlugin:A2A Remote Agent Events Have No Trace/Session Correlation in BigQuery ",
+          "state": "closed",
+          "createdAt": "2026-04-13T21:27:09Z",
+          "updatedAt": "2026-04-15T17:58:05Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/1851",
+          "number": 1851,
+          "title": "How to achieve proper human in the loop approval with long running function calls?",
+          "state": "closed",
+          "createdAt": "2025-07-09T03:53:05Z",
+          "updatedAt": "2025-12-20T19:12:14Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/4349",
+          "number": 4349,
+          "title": "fix: Preserve adk-* function call IDs for Claude/OpenAI compatibility",
+          "state": "closed",
+          "createdAt": "2026-02-02T00:54:22Z",
+          "updatedAt": "2026-06-17T18:34:36Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/1211",
+          "number": 1211,
+          "title": "fix: Remove display_name for non-Vertex file uploads",
+          "state": "closed",
+          "createdAt": "2025-06-06T12:38:45Z",
+          "updatedAt": "2025-06-13T15:12:53Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/501",
+          "number": 501,
+          "title": "Crash while exiting loop agent in adk web",
+          "state": "closed",
+          "createdAt": "2025-05-01T22:25:12Z",
+          "updatedAt": "2025-10-07T06:57:06Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/3181",
+          "number": 3181,
+          "title": "Missing `stream_options` for streaming usage metadata in LiteLLM",
+          "state": "closed",
+          "createdAt": "2025-10-15T14:40:03Z",
+          "updatedAt": "2025-10-30T03:37:58Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/63",
+          "number": 63,
+          "title": "TypeError: cannot pickle 'generator' object",
+          "state": "closed",
+          "createdAt": "2025-04-11T03:29:34Z",
+          "updatedAt": "2025-06-22T10:34:08Z",
+          "pullRequest": false
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "term": "processed_count",
+      "query": "repo:google/adk-python processed_count in:title,body",
+      "totalCount": 0,
+      "hits": []
+    },
+    {
+      "index": 4,
+      "term": "get_old_open_issue_numbers",
+      "query": "repo:google/adk-python get_old_open_issue_numbers in:title,body",
+      "totalCount": 1,
+      "hits": [
+        {
+          "url": "https://github.com/google/adk-python/pull/3700",
+          "number": 3700,
+          "title": "fix: Optimize Stale Agent with GraphQL and Search API to resolve 429 Quota errors",
+          "state": "closed",
+          "createdAt": "2025-11-24T22:17:23Z",
+          "updatedAt": "2025-12-02T19:40:56Z",
+          "pullRequest": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "term": "\"Error processing issue\"",
+      "query": "repo:google/adk-python \"Error processing issue\" in:title,body",
+      "totalCount": 0,
+      "hits": []
+    },
+    {
+      "index": 6,
+      "term": "adk_issue_monitoring_agent",
+      "query": "repo:google/adk-python adk_issue_monitoring_agent in:title,body",
+      "totalCount": 3,
+      "hits": [
+        {
+          "url": "https://github.com/google/adk-python/pull/5697",
+          "number": 5697,
+          "title": "fix(samples): use configurable model name to resolve 404 errors in triaging agents",
+          "state": "closed",
+          "createdAt": "2026-05-13T20:17:38Z",
+          "updatedAt": "2026-05-16T17:59:24Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/4622",
+          "number": 4622,
+          "title": "Feat/Issue Monitoring Agent",
+          "state": "closed",
+          "createdAt": "2026-02-25T11:24:40Z",
+          "updatedAt": "2026-05-26T17:52:54Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/5696",
+          "number": 5696,
+          "title": "Triaging agent workflows fail with 404 on gemini-2.5-pro via Gemini Developer API",
+          "state": "closed",
+          "createdAt": "2026-05-13T19:16:31Z",
+          "updatedAt": "2026-05-14T05:04:40Z",
+          "pullRequest": false
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "term": "issue-maintenance.yml",
+      "query": "repo:google/adk-python issue-maintenance.yml in:title,body",
+      "totalCount": 0,
+      "hits": []
+    },
+    {
+      "index": 8,
+      "term": "\"issue maintenance\"",
+      "query": "repo:google/adk-python \"issue maintenance\" in:title,body",
+      "totalCount": 3,
+      "hits": [
+        {
+          "url": "https://github.com/google/adk-python/issues/5621",
+          "number": 5621,
+          "title": "Error when using streaming callbacks with custom LLM",
+          "state": "closed",
+          "createdAt": "2026-05-07T02:44:13Z",
+          "updatedAt": "2026-05-07T03:26:41Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/5971",
+          "number": 5971,
+          "title": "chore(release/candidate): release 2.2.0",
+          "state": "closed",
+          "createdAt": "2026-06-04T21:55:51Z",
+          "updatedAt": "2026-06-04T22:08:50Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/4326",
+          "number": 4326,
+          "title": "fix event compaction to nonblocking",
+          "state": "closed",
+          "createdAt": "2026-01-30T19:43:00Z",
+          "updatedAt": "2026-04-23T15:25:20Z",
+          "pullRequest": true
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "term": "\"stale agent\"",
+      "query": "repo:google/adk-python \"stale agent\" in:title,body",
+      "totalCount": 14,
+      "hits": [
+        {
+          "url": "https://github.com/google/adk-python/issues/6388",
+          "number": 6388,
+          "title": "Anthropic Claude model on Vertex fails when served as an A2aAgent on Agent Engine (serving instance killed mid-request → 400 on message:send); Gemini works",
+          "state": "open",
+          "createdAt": "2026-07-14T16:22:24Z",
+          "updatedAt": "2026-07-26T13:41:35Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/4041",
+          "number": 4041,
+          "title": "fix: ignore adk-bot administrative actions in stale agent",
+          "state": "closed",
+          "createdAt": "2025-12-30T03:41:48Z",
+          "updatedAt": "2026-02-24T23:25:50Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/4944",
+          "number": 4944,
+          "title": "fix: RemoteA2aAgent fails to send taskId in multi-turn scenarios",
+          "state": "open",
+          "createdAt": "2026-03-21T14:10:43Z",
+          "updatedAt": "2026-06-17T08:02:46Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/5696",
+          "number": 5696,
+          "title": "Triaging agent workflows fail with 404 on gemini-2.5-pro via Gemini Developer API",
+          "state": "closed",
+          "createdAt": "2026-05-13T19:16:31Z",
+          "updatedAt": "2026-05-14T05:04:40Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/5365",
+          "number": 5365,
+          "title": "Fix: Sub-agent with sequential LRO tools fails to resume (Issue #5349)",
+          "state": "closed",
+          "createdAt": "2026-04-17T11:07:10Z",
+          "updatedAt": "2026-05-03T13:11:03Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/3938",
+          "number": 3938,
+          "title": "fix: Prevent stale bot from flagging internal maintainer discussions",
+          "state": "closed",
+          "createdAt": "2025-12-17T00:02:38Z",
+          "updatedAt": "2025-12-30T03:06:48Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/3700",
+          "number": 3700,
+          "title": "fix: Optimize Stale Agent with GraphQL and Search API to resolve 429 Quota errors",
+          "state": "closed",
+          "createdAt": "2025-11-24T22:17:23Z",
+          "updatedAt": "2025-12-02T19:40:56Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/5349",
+          "number": 5349,
+          "title": "Sub-agent with sequential LRO tools fails to resume",
+          "state": "open",
+          "createdAt": "2026-04-15T20:53:26Z",
+          "updatedAt": "2026-07-05T17:04:06Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/6187",
+          "number": 6187,
+          "title": "fix(samples): make a2a human-in-the-loop sample resume after confirmation",
+          "state": "closed",
+          "createdAt": "2026-06-22T11:07:53Z",
+          "updatedAt": "2026-07-09T19:46:09Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/3546",
+          "number": 3546,
+          "title": "feat(agent): Implement stale issue bot",
+          "state": "closed",
+          "createdAt": "2025-11-13T23:44:14Z",
+          "updatedAt": "2025-11-21T20:54:33Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/4640",
+          "number": 4640,
+          "title": "fix: add fork-safety and auto-create analytics views to BQ plugin",
+          "state": "closed",
+          "createdAt": "2026-02-27T06:58:39Z",
+          "updatedAt": "2026-03-02T16:05:40Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/5238",
+          "number": 5238,
+          "title": "[Live/bidi] transfer_to_agent drops pending user message on round-trip — no response after live-to-live handoff on Agent Engine",
+          "state": "closed",
+          "createdAt": "2026-04-10T16:08:25Z",
+          "updatedAt": "2026-06-16T18:26:42Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/3085",
+          "number": 3085,
+          "title": "fix(mcp_toolset): Prevent infinite hang on stale MCP connections",
+          "state": "closed",
+          "createdAt": "2025-10-03T15:57:45Z",
+          "updatedAt": "2025-11-18T21:28:08Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/2606",
+          "number": 2606,
+          "title": "fix: agent session state becoming stale when using colab utils to run the agent",
+          "state": "closed",
+          "createdAt": "2025-08-19T15:02:48Z",
+          "updatedAt": "2025-08-26T02:43:24Z",
+          "pullRequest": true
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "term": "stale_agent",
+      "query": "repo:google/adk-python stale_agent in:title,body",
+      "totalCount": 0,
+      "hits": []
+    },
+    {
+      "index": 11,
+      "term": "close_as_stale",
+      "query": "repo:google/adk-python close_as_stale in:title,body",
+      "totalCount": 0,
+      "hits": []
+    },
+    {
+      "index": 12,
+      "term": "InMemoryRunner",
+      "query": "repo:google/adk-python InMemoryRunner in:title,body",
+      "totalCount": 55,
+      "hits": [
+        {
+          "url": "https://github.com/google/adk-python/issues/6089",
+          "number": 6089,
+          "title": "message_as_output=True unconditionally set, destroying structured event.output for single_turn agents with output_schema",
+          "state": "open",
+          "createdAt": "2026-06-12T13:11:44Z",
+          "updatedAt": "2026-07-22T09:33:28Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/5559",
+          "number": 5559,
+          "title": "feat: add graceful stop method to run_async",
+          "state": "open",
+          "createdAt": "2026-04-30T18:42:38Z",
+          "updatedAt": "2026-06-08T23:31:00Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/5168",
+          "number": 5168,
+          "title": "bug: Interactions API + function calling fails with gemini-3-flash-preview (works with gemini-2.5-flash)",
+          "state": "open",
+          "createdAt": "2026-04-06T09:13:17Z",
+          "updatedAt": "2026-07-13T23:08:39Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/6482",
+          "number": 6482,
+          "title": "[LiteLLM] role='tool_responses' for Gemma-4 models breaks tool calling on LM Studio (strict OpenAI role validation)",
+          "state": "open",
+          "createdAt": "2026-07-26T01:16:48Z",
+          "updatedAt": "2026-07-27T13:01:02Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/5576",
+          "number": 5576,
+          "title": "fix(agents): Ensure state deltas are visible in agent callbacks",
+          "state": "open",
+          "createdAt": "2026-05-03T09:52:16Z",
+          "updatedAt": "2026-06-08T23:31:00Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/5105",
+          "number": 5105,
+          "title": "Support sub-agent escalation event in ParallelAgent",
+          "state": "open",
+          "createdAt": "2026-04-02T06:36:37Z",
+          "updatedAt": "2026-07-24T20:57:14Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/6309",
+          "number": 6309,
+          "title": "test(plugins): assert error propagation in on_*_error fallback tests",
+          "state": "closed",
+          "createdAt": "2026-07-05T20:48:27Z",
+          "updatedAt": "2026-07-14T20:10:23Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/6496",
+          "number": 6496,
+          "title": "[Feature] Opt-in visibility of sibling agents' final responses across branches",
+          "state": "open",
+          "createdAt": "2026-07-27T12:45:56Z",
+          "updatedAt": "2026-07-28T08:14:52Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/6099",
+          "number": 6099,
+          "title": "Decision ledger: persist the authority, refusal, and approval behind each tool call",
+          "state": "open",
+          "createdAt": "2026-06-13T00:06:25Z",
+          "updatedAt": "2026-07-29T15:35:33Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/6044",
+          "number": 6044,
+          "title": "docs(skills): fix broken refs in adk-workflow skill",
+          "state": "closed",
+          "createdAt": "2026-06-10T00:25:54Z",
+          "updatedAt": "2026-06-22T09:49:14Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/5772",
+          "number": 5772,
+          "title": "Feature Request: Native AFC & Multi-Tool Combination Support (Built-in Grounding + Custom Python Callables) on Vertex AI",
+          "state": "open",
+          "createdAt": "2026-05-20T17:59:26Z",
+          "updatedAt": "2026-05-21T07:29:48Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/4974",
+          "number": 4974,
+          "title": "feat(plugins): add on_agent_error_callback and on_run_error_callback lifecycle hooks",
+          "state": "closed",
+          "createdAt": "2026-03-24T03:32:11Z",
+          "updatedAt": "2026-07-15T18:04:12Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/4837",
+          "number": 4837,
+          "title": "LlmAgent `output_key` is not written to session state when `before_agent_callback` short-circuits execution",
+          "state": "closed",
+          "createdAt": "2026-03-14T07:00:05Z",
+          "updatedAt": "2026-06-18T00:56:58Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/6062",
+          "number": 6062,
+          "title": "Explicit context cache never engages (cache_name always None) when a dynamic instruction coexists with static_instruction",
+          "state": "closed",
+          "createdAt": "2026-06-10T11:51:22Z",
+          "updatedAt": "2026-06-22T17:30:55Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/3543",
+          "number": 3543,
+          "title": "Automatic function calling fails when using VERTEX_AI, but works when using GEMINI_API",
+          "state": "closed",
+          "createdAt": "2025-11-13T16:24:02Z",
+          "updatedAt": "2026-07-23T00:23:10Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/5437",
+          "number": 5437,
+          "title": "fix(lite_llm): preserve Anthropic thinking signatures across streaming tool-use turns",
+          "state": "closed",
+          "createdAt": "2026-04-21T17:14:16Z",
+          "updatedAt": "2026-07-08T06:52:15Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/5659",
+          "number": 5659,
+          "title": "LiteLlm drops Gemini grounding_metadata: _model_response_to_generate_content_response ignores response.vertex_ai_grounding_metadata",
+          "state": "closed",
+          "createdAt": "2026-05-11T04:46:42Z",
+          "updatedAt": "2026-06-03T07:51:35Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/6082",
+          "number": 6082,
+          "title": "Workflow logs a false warning \"cancelling N leftover tasks\" after every ParallelWorker run in 2.2.0",
+          "state": "closed",
+          "createdAt": "2026-06-11T16:21:47Z",
+          "updatedAt": "2026-06-17T22:33:59Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/5638",
+          "number": 5638,
+          "title": "fix(flows): terminate invocation at tool-level EUC",
+          "state": "closed",
+          "createdAt": "2026-05-07T23:59:36Z",
+          "updatedAt": "2026-06-15T23:29:12Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/5692",
+          "number": 5692,
+          "title": "fix(auth): strip redirect_uri from credential_key",
+          "state": "closed",
+          "createdAt": "2026-05-13T18:34:35Z",
+          "updatedAt": "2026-07-01T18:52:15Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/5566",
+          "number": 5566,
+          "title": "LlmAgent `output_key` state delta not visible to `after_agent_callback` or next agent's `before_agent_callback` in SequentialAgent",
+          "state": "closed",
+          "createdAt": "2026-05-01T07:22:34Z",
+          "updatedAt": "2026-05-22T09:33:42Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/5590",
+          "number": 5590,
+          "title": "Text accumulation issue for output_key",
+          "state": "closed",
+          "createdAt": "2026-05-05T11:07:35Z",
+          "updatedAt": "2026-06-22T21:01:24Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/2096",
+          "number": 2096,
+          "title": "Images returned from tool calls are not processed as expected",
+          "state": "closed",
+          "createdAt": "2025-07-22T09:10:43Z",
+          "updatedAt": "2026-04-10T19:47:35Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/4622",
+          "number": 4622,
+          "title": "Feat/Issue Monitoring Agent",
+          "state": "closed",
+          "createdAt": "2026-02-25T11:24:40Z",
+          "updatedAt": "2026-05-26T17:52:54Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/5169",
+          "number": 5169,
+          "title": "bug: StreamingMode.SSE breaks Interactions API function calling — interaction_id not propagated to session events",
+          "state": "closed",
+          "createdAt": "2026-04-06T09:13:52Z",
+          "updatedAt": "2026-04-09T22:33:20Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/3654",
+          "number": 3654,
+          "title": "Feat/public testing utilities",
+          "state": "closed",
+          "createdAt": "2025-11-21T11:12:22Z",
+          "updatedAt": "2026-02-17T07:47:23Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/4464",
+          "number": 4464,
+          "title": "Plugin callbacks (before_agent, after_agent, before_model, after_model, etc.) not being invoked by InMemoryRunner",
+          "state": "closed",
+          "createdAt": "2026-02-12T14:38:03Z",
+          "updatedAt": "2026-03-02T01:39:44Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/5703",
+          "number": 5703,
+          "title": "When using AgentEngineSandboxCodeExecutor (or any non-BuiltInCodeExecutor BaseCodeExecutor), the agent loop makes two LLM calls per user turn.",
+          "state": "closed",
+          "createdAt": "2026-05-14T17:45:16Z",
+          "updatedAt": "2026-05-14T19:04:01Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/3517",
+          "number": 3517,
+          "title": "fix(callbacks): make after_agent_callback replace instead of append",
+          "state": "closed",
+          "createdAt": "2025-11-12T15:26:15Z",
+          "updatedAt": "2026-03-18T13:46:13Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/4745",
+          "number": 4745,
+          "title": "Help Needed: Context length exceeded when using custom FastAPI server with LiteLLM model — works fine with adk web",
+          "state": "closed",
+          "createdAt": "2026-03-06T18:16:03Z",
+          "updatedAt": "2026-03-18T19:03:47Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/3523",
+          "number": 3523,
+          "title": "IndexError in ParallelAgent with LlmAgent",
+          "state": "closed",
+          "createdAt": "2025-11-12T18:13:18Z",
+          "updatedAt": "2026-02-20T06:30:22Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/4395",
+          "number": 4395,
+          "title": "feat(plugins): wire on_state_change_callback into plugin framework",
+          "state": "closed",
+          "createdAt": "2026-02-06T12:53:42Z",
+          "updatedAt": "2026-02-10T19:04:06Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/4573",
+          "number": 4573,
+          "title": "`_to_litellm_response_format` produces invalid strict schema for OpenAI models with nested Pydantic models",
+          "state": "closed",
+          "createdAt": "2026-02-20T21:41:40Z",
+          "updatedAt": "2026-02-23T19:35:38Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/2698",
+          "number": 2698,
+          "title": "feat: Add progressive streaming for run_async via ProgressiveTool (partial progress + final result)",
+          "state": "closed",
+          "createdAt": "2025-08-23T10:58:23Z",
+          "updatedAt": "2026-02-17T06:37:27Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/3535",
+          "number": 3535,
+          "title": "When setting the `include_contents` parameters to `none` for LlmAgent, the behavior is not aligned with the declaration in the manual.",
+          "state": "closed",
+          "createdAt": "2025-11-13T08:53:28Z",
+          "updatedAt": "2026-07-07T18:54:04Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/4043",
+          "number": 4043,
+          "title": "TypeError: Object of type bytes is not JSON serializable with Gemini 3.0 Thought Signatures and google-adk v1.21.0",
+          "state": "closed",
+          "createdAt": "2025-12-30T10:01:44Z",
+          "updatedAt": "2026-01-07T15:38:22Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/3564",
+          "number": 3564,
+          "title": "feat: Add progressive streaming for run_async via ProgressiveTool (partial progress + final result)",
+          "state": "closed",
+          "createdAt": "2025-11-15T11:58:09Z",
+          "updatedAt": "2025-12-29T16:34:19Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/3345",
+          "number": 3345,
+          "title": "feat: add run_debug() helper method for quick agent experimentation",
+          "state": "closed",
+          "createdAt": "2025-10-30T14:23:01Z",
+          "updatedAt": "2025-10-31T20:28:16Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/3713",
+          "number": 3713,
+          "title": "Bug: formatted response only works with some model providers",
+          "state": "closed",
+          "createdAt": "2025-11-25T18:35:17Z",
+          "updatedAt": "2025-12-11T20:53:29Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/3584",
+          "number": 3584,
+          "title": "TypeError in AgentTool when processing SequentialAgent response with None parts",
+          "state": "closed",
+          "createdAt": "2025-11-17T17:06:23Z",
+          "updatedAt": "2025-12-18T10:33:15Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/3700",
+          "number": 3700,
+          "title": "fix: Optimize Stale Agent with GraphQL and Search API to resolve 429 Quota errors",
+          "state": "closed",
+          "createdAt": "2025-11-24T22:17:23Z",
+          "updatedAt": "2025-12-02T19:40:56Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/560",
+          "number": 560,
+          "title": "Fix: Agent Tool Response incorrectly saved skip_summarization",
+          "state": "closed",
+          "createdAt": "2025-05-05T07:22:33Z",
+          "updatedAt": "2025-10-03T21:54:13Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/3205",
+          "number": 3205,
+          "title": "Bulk request agents on the same runner",
+          "state": "closed",
+          "createdAt": "2025-10-17T08:49:15Z",
+          "updatedAt": "2025-11-07T04:23:56Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/1283",
+          "number": 1283,
+          "title": "Twilio audio streaming to Gemini live model hangs indefinitely waiting for response",
+          "state": "closed",
+          "createdAt": "2025-06-10T15:13:37Z",
+          "updatedAt": "2025-11-04T23:53:36Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/2591",
+          "number": 2591,
+          "title": "gemini-2.5-flash is not found for API version v1alpha , using the latest google-adk version",
+          "state": "closed",
+          "createdAt": "2025-08-18T13:24:47Z",
+          "updatedAt": "2025-11-05T03:24:34Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/3552",
+          "number": 3552,
+          "title": "ValidationError: 1 validation error for Schema enum.9   Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]",
+          "state": "closed",
+          "createdAt": "2025-11-14T11:02:42Z",
+          "updatedAt": "2025-11-22T06:12:58Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/3672",
+          "number": 3672,
+          "title": "Loop agent exit condition",
+          "state": "closed",
+          "createdAt": "2025-11-23T09:20:25Z",
+          "updatedAt": "2025-12-06T14:04:26Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/868",
+          "number": 868,
+          "title": "fix: Enable InMemoryRunner to be used in async tests",
+          "state": "closed",
+          "createdAt": "2025-05-22T10:13:50Z",
+          "updatedAt": "2025-05-27T23:10:28Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/2809",
+          "number": 2809,
+          "title": "Plugins don't run in AgentTool",
+          "state": "closed",
+          "createdAt": "2025-09-01T10:04:44Z",
+          "updatedAt": "2025-09-02T06:49:10Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/729",
+          "number": 729,
+          "title": "Behavior is different between AgentTool and SubAgent",
+          "state": "closed",
+          "createdAt": "2025-05-14T15:56:50Z",
+          "updatedAt": "2025-10-07T07:24:15Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/580",
+          "number": 580,
+          "title": "Fix: Set output_schema correctly for LiteLllm",
+          "state": "closed",
+          "createdAt": "2025-05-06T08:08:10Z",
+          "updatedAt": "2025-05-29T17:01:58Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/561",
+          "number": 561,
+          "title": "AgentTool response is empty when skip_summarization=True",
+          "state": "closed",
+          "createdAt": "2025-05-05T07:29:01Z",
+          "updatedAt": "2025-07-09T09:48:37Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/222",
+          "number": 222,
+          "title": "Non-thinking model cannot accomodate planning and searching together.",
+          "state": "closed",
+          "createdAt": "2025-04-16T06:08:10Z",
+          "updatedAt": "2025-04-21T23:38:11Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/770",
+          "number": 770,
+          "title": "Thinking Parts and Text Parts get merged Into Single Part during Streaming Mode",
+          "state": "closed",
+          "createdAt": "2025-05-16T20:24:51Z",
+          "updatedAt": "2025-05-29T05:15:53Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/427",
+          "number": 427,
+          "title": "Get  litellm.BadRequestError error when missing user content",
+          "state": "closed",
+          "createdAt": "2025-04-28T07:50:24Z",
+          "updatedAt": "2025-05-05T15:58:58Z",
+          "pullRequest": false
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "term": "\"processed issues\"",
+      "query": "repo:google/adk-python \"processed issues\" in:title,body",
+      "totalCount": 0,
+      "hits": []
+    },
+    {
+      "index": 14,
+      "term": "\"silent failure\"",
+      "query": "repo:google/adk-python \"silent failure\" in:title,body",
+      "totalCount": 27,
+      "hits": [
+        {
+          "url": "https://github.com/google/adk-python/pull/5063",
+          "number": 5063,
+          "title": " feat: add input validation and type hints to BaseTool name",
+          "state": "open",
+          "createdAt": "2026-03-30T16:44:10Z",
+          "updatedAt": "2026-06-17T08:02:29Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/5125",
+          "number": 5125,
+          "title": "Support transfer_to_agent from after_model_callback without synthetic FunctionCall",
+          "state": "open",
+          "createdAt": "2026-04-03T08:38:43Z",
+          "updatedAt": "2026-04-06T06:16:03Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/6072",
+          "number": 6072,
+          "title": "RubricBasedEvaluator _normalize_text too basic — fails on judge model markdown output",
+          "state": "open",
+          "createdAt": "2026-06-10T20:21:51Z",
+          "updatedAt": "2026-06-19T17:16:03Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/6361",
+          "number": 6361,
+          "title": "user.id silently dropped when GENERATE_CONTENT_EVENT_ONLY_EXTRA_ATTRIBUTES_CONTEXT_KEY is missing",
+          "state": "open",
+          "createdAt": "2026-07-10T10:54:20Z",
+          "updatedAt": "2026-07-27T09:14:55Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/6262",
+          "number": 6262,
+          "title": "bug: eval metrics module silently imports all evaluators regardless of dependencies, causing import errors for missing optional deps to surface as zero scores",
+          "state": "open",
+          "createdAt": "2026-07-01T13:19:36Z",
+          "updatedAt": "2026-07-27T08:06:48Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/6080",
+          "number": 6080,
+          "title": "fix(eval): improve rubric text normalization for judge-garbled output",
+          "state": "open",
+          "createdAt": "2026-06-11T13:12:25Z",
+          "updatedAt": "2026-06-23T23:18:22Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/5496",
+          "number": 5496,
+          "title": "fix(tools): add fallback to code_execution_result.output in AgentTool.run_async when text parts are empty",
+          "state": "closed",
+          "createdAt": "2026-04-26T14:42:52Z",
+          "updatedAt": "2026-06-17T00:32:12Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/5477",
+          "number": 5477,
+          "title": "fix: let BigQuery infer dataset location for view creation",
+          "state": "closed",
+          "createdAt": "2026-04-24T18:24:39Z",
+          "updatedAt": "2026-05-04T14:16:53Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/5567",
+          "number": 5567,
+          "title": "Runner.run() silently terminates the event generator when run_async raises — exception reaches stderr but no signal to caller",
+          "state": "closed",
+          "createdAt": "2026-05-01T15:31:14Z",
+          "updatedAt": "2026-05-01T15:32:52Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/4261",
+          "number": 4261,
+          "title": "fix(code_executors): Fix JSON field mismatches in AgentEngineSandboxCodeExecutor",
+          "state": "closed",
+          "createdAt": "2026-01-25T23:18:03Z",
+          "updatedAt": "2026-07-06T18:50:55Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/5476",
+          "number": 5476,
+          "title": "fix: auto-detect dataset location in BigQuery analytics plugin",
+          "state": "closed",
+          "createdAt": "2026-04-24T18:14:48Z",
+          "updatedAt": "2026-04-24T18:19:18Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/5912",
+          "number": 5912,
+          "title": "fix: use correct 'content' key in AgentEngineSandboxCodeExecutor input files",
+          "state": "closed",
+          "createdAt": "2026-05-30T18:34:02Z",
+          "updatedAt": "2026-06-16T23:07:34Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/5050",
+          "number": 5050,
+          "title": "Feature: behavioral drift monitoring hooks for context compaction events",
+          "state": "open",
+          "createdAt": "2026-03-29T04:06:04Z",
+          "updatedAt": "2026-03-31T05:36:56Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/6091",
+          "number": 6091,
+          "title": "ADK bug — LiteLlm: native tools silently dropped when routing through a proxy gateway",
+          "state": "closed",
+          "createdAt": "2026-06-12T15:43:43Z",
+          "updatedAt": "2026-07-17T19:25:20Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/4974",
+          "number": 4974,
+          "title": "feat(plugins): add on_agent_error_callback and on_run_error_callback lifecycle hooks",
+          "state": "closed",
+          "createdAt": "2026-03-24T03:32:11Z",
+          "updatedAt": "2026-07-15T18:04:12Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/5006",
+          "number": 5006,
+          "title": "fix: retry with resume message when model returns empty response",
+          "state": "open",
+          "createdAt": "2026-03-26T04:42:00Z",
+          "updatedAt": "2026-06-08T23:31:03Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/5547",
+          "number": 5547,
+          "title": "Feat: LiteLlm: Make LiteLLM file attachment failures consistent by raising explicit errors instead of silent fallback",
+          "state": "closed",
+          "createdAt": "2026-04-29T16:09:29Z",
+          "updatedAt": "2026-06-18T18:35:23Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/5546",
+          "number": 5546,
+          "title": "Feat: LiteLlm: Make LiteLLM file attachment failures consistent by raising explicit errors instead of silent fallback",
+          "state": "closed",
+          "createdAt": "2026-04-29T16:08:23Z",
+          "updatedAt": "2026-06-02T22:18:24Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/5328",
+          "number": 5328,
+          "title": "OAuth2 token refresh fails for providers that reject scope parameter (e.g. Salesforce)",
+          "state": "closed",
+          "createdAt": "2026-04-14T21:32:14Z",
+          "updatedAt": "2026-05-29T19:30:52Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/6356",
+          "number": 6356,
+          "title": "BigQuery Agent Analytics: close fail-open privacy, GCS concurrency, and startup-loss gaps",
+          "state": "open",
+          "createdAt": "2026-07-10T09:06:04Z",
+          "updatedAt": "2026-07-22T09:59:02Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/4108",
+          "number": 4108,
+          "title": "Allow `thinking_config` in `generate_content_config` for LlmAgent",
+          "state": "closed",
+          "createdAt": "2026-01-09T15:05:51Z",
+          "updatedAt": "2026-01-15T22:32:11Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/4482",
+          "number": 4482,
+          "title": "LiteLLM streaming silently drops tool call responses when `finish_reason` is `\"length\"` (max output tokens reached)",
+          "state": "closed",
+          "createdAt": "2026-02-13T17:19:30Z",
+          "updatedAt": "2026-03-10T17:44:20Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/4249",
+          "number": 4249,
+          "title": "Unintended user message injection breaks tool calling with LiteLLM + OpenAI/Azure",
+          "state": "closed",
+          "createdAt": "2026-01-23T16:22:11Z",
+          "updatedAt": "2026-01-30T19:20:54Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/4321",
+          "number": 4321,
+          "title": "Refactor BigQuery write error handling and add timeout",
+          "state": "closed",
+          "createdAt": "2026-01-29T23:49:56Z",
+          "updatedAt": "2026-02-18T17:46:47Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/1281",
+          "number": 1281,
+          "title": "`ResponseEvaluator._get_score` returns `NaN` and breaks threshold checks",
+          "state": "closed",
+          "createdAt": "2025-06-10T14:32:16Z",
+          "updatedAt": "2025-07-21T19:34:40Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/5282",
+          "number": 5282,
+          "title": "Custom memory persistence silently no-ops on Workflow (BaseNode) roots in 2.x — no working post-run hook",
+          "state": "closed",
+          "createdAt": "2026-04-11T08:07:52Z",
+          "updatedAt": "2026-07-06T22:37:12Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/4483",
+          "number": 4483,
+          "title": "Runner.run_async silently drops function calls for certain image inputs",
+          "state": "closed",
+          "createdAt": "2026-02-13T18:15:44Z",
+          "updatedAt": "2026-02-14T03:54:49Z",
+          "pullRequest": false
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "term": "\"fail open\"",
+      "query": "repo:google/adk-python \"fail open\" in:title,body",
+      "totalCount": 12,
+      "hits": [
+        {
+          "url": "https://github.com/google/adk-python/issues/6356",
+          "number": 6356,
+          "title": "BigQuery Agent Analytics: close fail-open privacy, GCS concurrency, and startup-loss gaps",
+          "state": "open",
+          "createdAt": "2026-07-10T09:06:04Z",
+          "updatedAt": "2026-07-22T09:59:02Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/6360",
+          "number": 6360,
+          "title": "fix(plugins): close BQAA fail-open privacy, GCS concurrency, and startup-loss gaps (#6356)",
+          "state": "closed",
+          "createdAt": "2026-07-10T10:26:46Z",
+          "updatedAt": "2026-07-16T07:20:49Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/6515",
+          "number": 6515,
+          "title": "chore(release/candidate): release 2.6.0",
+          "state": "open",
+          "createdAt": "2026-07-29T21:19:11Z",
+          "updatedAt": "2026-07-29T21:40:02Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/4644",
+          "number": 4644,
+          "title": "fix: fail closed on malformed tool confirmation payloads",
+          "state": "closed",
+          "createdAt": "2026-02-27T11:30:58Z",
+          "updatedAt": "2026-02-27T20:07:39Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/5883",
+          "number": 5883,
+          "title": "PoC verify-1779978219",
+          "state": "closed",
+          "createdAt": "2026-05-28T14:23:46Z",
+          "updatedAt": "2026-05-28T14:29:07Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/5342",
+          "number": 5342,
+          "title": "PROGRESSIVE_SSE_STREAMING is not honored by the LiteLlm adapter — function-call argument deltas are buffered until finish_reason",
+          "state": "open",
+          "createdAt": "2026-04-15T09:12:59Z",
+          "updatedAt": "2026-07-22T06:43:14Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/5544",
+          "number": 5544,
+          "title": "adk  web session 403 forbidden error",
+          "state": "closed",
+          "createdAt": "2026-04-29T12:51:41Z",
+          "updatedAt": "2026-05-01T11:12:37Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/4758",
+          "number": 4758,
+          "title": "🔗 Community Tool: AgentFolio — Agent Identity & Trust Verification for ADK",
+          "state": "closed",
+          "createdAt": "2026-03-07T18:09:33Z",
+          "updatedAt": "2026-03-22T23:45:01Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/2624",
+          "number": 2624,
+          "title": "Swagger docs don't show a2a",
+          "state": "closed",
+          "createdAt": "2025-08-20T09:20:08Z",
+          "updatedAt": "2025-12-26T06:15:36Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/3526",
+          "number": 3526,
+          "title": "\"Failed to load API definition\" error when using docs api from adk web server",
+          "state": "closed",
+          "createdAt": "2025-11-12T19:20:21Z",
+          "updatedAt": "2026-02-04T09:48:21Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/1169",
+          "number": 1169,
+          "title": "More clear error message for missing param type with default with Gemini",
+          "state": "closed",
+          "createdAt": "2025-06-05T03:53:35Z",
+          "updatedAt": "2025-08-14T21:15:22Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/609",
+          "number": 609,
+          "title": "set keep-alive header in run sse",
+          "state": "closed",
+          "createdAt": "2025-05-07T15:20:46Z",
+          "updatedAt": "2025-05-29T07:00:01Z",
+          "pullRequest": false
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "term": "\"false success\"",
+      "query": "repo:google/adk-python \"false success\" in:title,body",
+      "totalCount": 7,
+      "hits": [
+        {
+          "url": "https://github.com/google/adk-python/pull/3892",
+          "number": 3892,
+          "title": "Feat: Agent Evaluations print detailed results when all tests pass",
+          "state": "open",
+          "createdAt": "2025-12-10T23:11:22Z",
+          "updatedAt": "2026-06-08T23:31:06Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/6359",
+          "number": 6359,
+          "title": "feat(optimization): enforce run-context usage, budgets, and cancellation in the prompt optimizers (RFC #6357, PR 2/2)",
+          "state": "closed",
+          "createdAt": "2026-07-10T10:11:00Z",
+          "updatedAt": "2026-07-13T18:29:27Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/6302",
+          "number": 6302,
+          "title": "fix(memory): do not leak temp file when RAG upload fails",
+          "state": "open",
+          "createdAt": "2026-07-05T18:38:01Z",
+          "updatedAt": "2026-07-09T18:24:18Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/4266",
+          "number": 4266,
+          "title": "Unable to Send Emails with Attachments Due to Artifact Loading Failure",
+          "state": "closed",
+          "createdAt": "2026-01-26T06:48:24Z",
+          "updatedAt": "2026-05-19T19:01:00Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/4167",
+          "number": 4167,
+          "title": "VertexAiMemoryBankService is not configured in Agent Engine",
+          "state": "closed",
+          "createdAt": "2026-01-15T10:01:20Z",
+          "updatedAt": "2026-02-18T06:30:39Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/2734",
+          "number": 2734,
+          "title": "FastMCP Server with adk - 400 INVALID_ARGUMENT Invalid JSON payload received",
+          "state": "closed",
+          "createdAt": "2025-08-26T15:54:50Z",
+          "updatedAt": "2025-11-04T20:39:07Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/3788",
+          "number": 3788,
+          "title": "Agent run_async hangs with \"anyio.WouldBlock\" and uncaught asyncio.CancelledError on unreachable MCP server URL",
+          "state": "closed",
+          "createdAt": "2025-12-02T13:59:40Z",
+          "updatedAt": "2025-12-03T03:14:51Z",
+          "pullRequest": false
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "term": "\"exit 0\"",
+      "query": "repo:google/adk-python \"exit 0\" in:title,body",
+      "totalCount": 20,
+      "hits": [
+        {
+          "url": "https://github.com/google/adk-python/pull/6505",
+          "number": 6505,
+          "title": "fix(ci): make the update-constraints pre-commit hook work in CI",
+          "state": "open",
+          "createdAt": "2026-07-28T18:36:14Z",
+          "updatedAt": "2026-07-29T20:25:54Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/4408",
+          "number": 4408,
+          "title": "feat: adopt Alembic for database schema migrations",
+          "state": "open",
+          "createdAt": "2026-02-07T18:56:22Z",
+          "updatedAt": "2026-07-22T16:56:06Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/5859",
+          "number": 5859,
+          "title": "fix: retry when model returns empty response after tool execution",
+          "state": "open",
+          "createdAt": "2026-05-26T17:37:49Z",
+          "updatedAt": "2026-06-08T23:30:58Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/6406",
+          "number": 6406,
+          "title": "chore: add codespell pre-commit hook to catch typos",
+          "state": "closed",
+          "createdAt": "2026-07-16T05:18:07Z",
+          "updatedAt": "2026-07-23T00:13:16Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/6292",
+          "number": 6292,
+          "title": "fix(evaluation): Support non-English responses in ROUGE-1 matching",
+          "state": "closed",
+          "createdAt": "2026-07-04T22:12:33Z",
+          "updatedAt": "2026-07-27T21:57:47Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/6424",
+          "number": 6424,
+          "title": "fix: Register custom metrics from eval config in LocalEvalSampler and centralize registration",
+          "state": "closed",
+          "createdAt": "2026-07-17T16:00:19Z",
+          "updatedAt": "2026-07-20T20:10:06Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/4982",
+          "number": 4982,
+          "title": "fix: retry when model returns empty response after tool execution",
+          "state": "closed",
+          "createdAt": "2026-03-24T14:42:39Z",
+          "updatedAt": "2026-05-12T02:44:30Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/4516",
+          "number": 4516,
+          "title": "fix(code_executors): correct sandbox JSON field names for stdout & input files",
+          "state": "closed",
+          "createdAt": "2026-02-17T03:07:01Z",
+          "updatedAt": "2026-05-12T02:30:46Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/5092",
+          "number": 5092,
+          "title": "Example: Agent with remote HTTP MCP server for real-world APIs",
+          "state": "open",
+          "createdAt": "2026-04-01T14:06:00Z",
+          "updatedAt": "2026-04-02T04:47:27Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/4876",
+          "number": 4876,
+          "title": "Graceful WebSocket drain on SIGTERM for api_server/web commands",
+          "state": "open",
+          "createdAt": "2026-03-18T14:54:58Z",
+          "updatedAt": "2026-03-20T08:48:38Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/6108",
+          "number": 6108,
+          "title": "docs: Fix broken documentation links in llms.txt",
+          "state": "closed",
+          "createdAt": "2026-06-13T08:08:53Z",
+          "updatedAt": "2026-06-16T22:01:51Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/6411",
+          "number": 6411,
+          "title": "chore(release/candidate): release 2.5.0",
+          "state": "closed",
+          "createdAt": "2026-07-16T20:12:27Z",
+          "updatedAt": "2026-07-16T20:38:21Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/5766",
+          "number": 5766,
+          "title": "ADK 2.0 CLI fails at creation command due to module not found error",
+          "state": "closed",
+          "createdAt": "2026-05-20T15:33:21Z",
+          "updatedAt": "2026-05-20T18:11:06Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/3501",
+          "number": 3501,
+          "title": "Migration script generates invalid Python syntax with MySQL/PostgreSQL",
+          "state": "closed",
+          "createdAt": "2025-11-11T20:04:19Z",
+          "updatedAt": "2026-01-21T00:49:09Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/3497",
+          "number": 3497,
+          "title": "Migration script generates invalid Python syntax with MySQL/PostgreSQL",
+          "state": "closed",
+          "createdAt": "2025-11-11T14:12:59Z",
+          "updatedAt": "2025-11-11T20:01:38Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/970",
+          "number": 970,
+          "title": "'coroutine' object has no attribute 'sub_agents' after upgrade to 1.0.0",
+          "state": "closed",
+          "createdAt": "2025-05-27T03:59:45Z",
+          "updatedAt": "2025-05-28T07:38:18Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/715",
+          "number": 715,
+          "title": "FastMCP local server causes RemoteProtocolError: \"Server disconnected without sending a response\"",
+          "state": "closed",
+          "createdAt": "2025-05-14T07:03:29Z",
+          "updatedAt": "2025-08-11T08:51:43Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/823",
+          "number": 823,
+          "title": "Using MCP tools outside of adk web doesn't exit cleanly",
+          "state": "closed",
+          "createdAt": "2025-05-21T11:37:35Z",
+          "updatedAt": "2025-05-29T20:00:58Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/860",
+          "number": 860,
+          "title": "opentelemetry ValueError: \"Token was created in a different Context\" with ParallelAgent and LlmAgent",
+          "state": "closed",
+          "createdAt": "2025-05-22T07:38:46Z",
+          "updatedAt": "2025-08-25T16:45:57Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/427",
+          "number": 427,
+          "title": "Get  litellm.BadRequestError error when missing user content",
+          "state": "closed",
+          "createdAt": "2025-04-28T07:50:24Z",
+          "updatedAt": "2025-05-05T15:58:58Z",
+          "pullRequest": false
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "term": "\"workflow green\"",
+      "query": "repo:google/adk-python \"workflow green\" in:title,body",
+      "totalCount": 0,
+      "hits": []
+    },
+    {
+      "index": 19,
+      "term": "\"successfully processed\"",
+      "query": "repo:google/adk-python \"successfully processed\" in:title,body",
+      "totalCount": 9,
+      "hits": [
+        {
+          "url": "https://github.com/google/adk-python/issues/2466",
+          "number": 2466,
+          "title": "Claude in Vertex AI does not support GCS or URL-based file ingestion via ADK",
+          "state": "open",
+          "createdAt": "2025-08-11T09:06:57Z",
+          "updatedAt": "2026-03-26T00:58:01Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/3286",
+          "number": 3286,
+          "title": "fix(anthropic): allow images in user messages while filtering model turns",
+          "state": "closed",
+          "createdAt": "2025-10-26T15:16:24Z",
+          "updatedAt": "2026-05-02T00:21:08Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/5311",
+          "number": 5311,
+          "title": "BigQueryAgentAnalyticsPlugin:A2A Remote Agent Events Have No Trace/Session Correlation in BigQuery ",
+          "state": "closed",
+          "createdAt": "2026-04-13T21:27:09Z",
+          "updatedAt": "2026-04-15T17:58:05Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/1851",
+          "number": 1851,
+          "title": "How to achieve proper human in the loop approval with long running function calls?",
+          "state": "closed",
+          "createdAt": "2025-07-09T03:53:05Z",
+          "updatedAt": "2025-12-20T19:12:14Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/4349",
+          "number": 4349,
+          "title": "fix: Preserve adk-* function call IDs for Claude/OpenAI compatibility",
+          "state": "closed",
+          "createdAt": "2026-02-02T00:54:22Z",
+          "updatedAt": "2026-06-17T18:34:36Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/1211",
+          "number": 1211,
+          "title": "fix: Remove display_name for non-Vertex file uploads",
+          "state": "closed",
+          "createdAt": "2025-06-06T12:38:45Z",
+          "updatedAt": "2025-06-13T15:12:53Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/501",
+          "number": 501,
+          "title": "Crash while exiting loop agent in adk web",
+          "state": "closed",
+          "createdAt": "2025-05-01T22:25:12Z",
+          "updatedAt": "2025-10-07T06:57:06Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/3181",
+          "number": 3181,
+          "title": "Missing `stream_options` for streaming usage metadata in LiteLLM",
+          "state": "closed",
+          "createdAt": "2025-10-15T14:40:03Z",
+          "updatedAt": "2025-10-30T03:37:58Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/63",
+          "number": 63,
+          "title": "TypeError: cannot pickle 'generator' object",
+          "state": "closed",
+          "createdAt": "2025-04-11T03:29:34Z",
+          "updatedAt": "2025-06-22T10:34:08Z",
+          "pullRequest": false
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "term": "\"errors are swallowed\"",
+      "query": "repo:google/adk-python \"errors are swallowed\" in:title,body",
+      "totalCount": 0,
+      "hits": []
+    },
+    {
+      "index": 21,
+      "term": "\"swallow exception\"",
+      "query": "repo:google/adk-python \"swallow exception\" in:title,body",
+      "totalCount": 10,
+      "hits": [
+        {
+          "url": "https://github.com/google/adk-python/pull/6345",
+          "number": 6345,
+          "title": "fix(cli): remove shadowing local json import breaking A2A setup",
+          "state": "open",
+          "createdAt": "2026-07-08T07:51:54Z",
+          "updatedAt": "2026-07-29T19:21:12Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/6222",
+          "number": 6222,
+          "title": "Provide a read-only observation point for the final LlmRequest (observer callback vs. OTel interface)",
+          "state": "closed",
+          "createdAt": "2026-06-27T00:03:12Z",
+          "updatedAt": "2026-07-13T18:30:07Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/6359",
+          "number": 6359,
+          "title": "feat(optimization): enforce run-context usage, budgets, and cancellation in the prompt optimizers (RFC #6357, PR 2/2)",
+          "state": "closed",
+          "createdAt": "2026-07-10T10:11:00Z",
+          "updatedAt": "2026-07-13T18:29:27Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/6285",
+          "number": 6285,
+          "title": "fix(cli): resolve UnboundLocalError for `json` when serving A2A agents",
+          "state": "closed",
+          "createdAt": "2026-07-03T10:05:34Z",
+          "updatedAt": "2026-07-15T18:05:56Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/6284",
+          "number": 6284,
+          "title": "fix(cli): resolve UnboundLocalError for json when serving A2A agents",
+          "state": "closed",
+          "createdAt": "2026-07-03T10:00:52Z",
+          "updatedAt": "2026-07-03T10:03:19Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/4244",
+          "number": 4244,
+          "title": "SSE endpoint: run_sse does not propagate exceptions or non-2xx status codes",
+          "state": "closed",
+          "createdAt": "2026-01-23T10:41:40Z",
+          "updatedAt": "2026-03-07T06:16:33Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/3069",
+          "number": 3069,
+          "title": "exception handle in PreloadMemoryTool",
+          "state": "closed",
+          "createdAt": "2025-10-02T00:25:33Z",
+          "updatedAt": "2025-10-02T21:41:31Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/4640",
+          "number": 4640,
+          "title": "fix: add fork-safety and auto-create analytics views to BQ plugin",
+          "state": "closed",
+          "createdAt": "2026-02-27T06:58:39Z",
+          "updatedAt": "2026-03-02T16:05:40Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/2654",
+          "number": 2654,
+          "title": "uncaught exception with output model validation at set_model_response_tool",
+          "state": "closed",
+          "createdAt": "2025-08-21T11:21:43Z",
+          "updatedAt": "2025-10-28T22:03:53Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/2610",
+          "number": 2610,
+          "title": "fix: Lazy load VertexAiCodeExecutor and ContainerCodeExecutor",
+          "state": "closed",
+          "createdAt": "2025-08-19T18:40:43Z",
+          "updatedAt": "2025-08-19T19:07:06Z",
+          "pullRequest": true
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "term": "\"exception handling\"",
+      "query": "repo:google/adk-python \"exception handling\" in:title,body",
+      "totalCount": 66,
+      "hits": [
+        {
+          "url": "https://github.com/google/adk-python/issues/2792",
+          "number": 2792,
+          "title": "Support for Disabling or Extending Internal OpenTelemetry Tracing in Google ADK (Python)",
+          "state": "open",
+          "createdAt": "2025-08-29T22:49:59Z",
+          "updatedAt": "2026-07-22T18:03:54Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/4949",
+          "number": 4949,
+          "title": "fix: replace bare except with except Exception",
+          "state": "closed",
+          "createdAt": "2026-03-22T02:17:11Z",
+          "updatedAt": "2026-05-12T02:44:04Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/5562",
+          "number": 5562,
+          "title": "chore(release/candidate): release 1.32.0",
+          "state": "closed",
+          "createdAt": "2026-04-30T23:20:49Z",
+          "updatedAt": "2026-05-01T00:18:31Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/5560",
+          "number": 5560,
+          "title": "chore(release/candidate): release 1.32.0",
+          "state": "closed",
+          "createdAt": "2026-04-30T20:19:59Z",
+          "updatedAt": "2026-04-30T23:19:44Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/4888",
+          "number": 4888,
+          "title": "feat: add timeout and URL scheme validation to load_web_page",
+          "state": "closed",
+          "createdAt": "2026-03-18T21:49:43Z",
+          "updatedAt": "2026-03-19T13:36:38Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/4976",
+          "number": 4976,
+          "title": "Case 68976860: Vertex AI Agent Engine: Agent integrated with Gemini Enterprise not responding",
+          "state": "closed",
+          "createdAt": "2026-03-24T07:08:34Z",
+          "updatedAt": "2026-03-24T12:01:50Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/5339",
+          "number": 5339,
+          "title": "feat(memory): add DatabaseMemoryService with SQLAlchemy async backend",
+          "state": "closed",
+          "createdAt": "2026-04-15T03:51:52Z",
+          "updatedAt": "2026-04-20T20:52:09Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/3009",
+          "number": 3009,
+          "title": "A2aAgentExecutor support for `x402-a2a`",
+          "state": "open",
+          "createdAt": "2025-09-23T13:26:48Z",
+          "updatedAt": "2025-11-26T06:39:07Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/4996",
+          "number": 4996,
+          "title": "Session resumption reconnection loop in run_live() never iterates",
+          "state": "closed",
+          "createdAt": "2026-03-25T19:19:08Z",
+          "updatedAt": "2026-04-08T21:05:20Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/6454",
+          "number": 6454,
+          "title": "422 Error: Tool Call ID required on tool calls",
+          "state": "open",
+          "createdAt": "2026-07-23T01:55:23Z",
+          "updatedAt": "2026-07-23T19:20:14Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/4321",
+          "number": 4321,
+          "title": "Refactor BigQuery write error handling and add timeout",
+          "state": "closed",
+          "createdAt": "2026-01-29T23:49:56Z",
+          "updatedAt": "2026-02-18T17:46:47Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/5942",
+          "number": 5942,
+          "title": "fix(tools): bind JSONDecodeError in ToolConnectionAnalyzer.analyze",
+          "state": "closed",
+          "createdAt": "2026-06-02T18:19:56Z",
+          "updatedAt": "2026-07-28T18:32:58Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/3687",
+          "number": 3687,
+          "title": "Fix usage metadata write and empty response",
+          "state": "closed",
+          "createdAt": "2025-11-24T13:30:51Z",
+          "updatedAt": "2026-02-17T07:38:08Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/2061",
+          "number": 2061,
+          "title": "MCPToolset: Add OAuth2 Client Credentials Flow with RFC 8414 Compliant Discovery",
+          "state": "closed",
+          "createdAt": "2025-07-20T12:35:56Z",
+          "updatedAt": "2026-02-17T05:26:34Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/5511",
+          "number": 5511,
+          "title": "fix(models): standardize Anthropic API error handling in AnthropicLlm",
+          "state": "closed",
+          "createdAt": "2026-04-28T00:42:11Z",
+          "updatedAt": "2026-05-18T22:20:41Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/4914",
+          "number": 4914,
+          "title": "fix: handle APIError code 1000 in _receive_from_model for google-genai >= 1.62.0",
+          "state": "closed",
+          "createdAt": "2026-03-20T06:10:46Z",
+          "updatedAt": "2026-06-17T00:26:21Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/2654",
+          "number": 2654,
+          "title": "uncaught exception with output model validation at set_model_response_tool",
+          "state": "closed",
+          "createdAt": "2025-08-21T11:21:43Z",
+          "updatedAt": "2025-10-28T22:03:53Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/3521",
+          "number": 3521,
+          "title": "fix: Add Pydantic v2 compatibility for OpenAPI/Swagger UI endpoints",
+          "state": "closed",
+          "createdAt": "2025-11-12T18:04:12Z",
+          "updatedAt": "2026-01-29T05:29:56Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/2929",
+          "number": 2929,
+          "title": "fix: Enhance error handling for closed and broken resources in retry …",
+          "state": "closed",
+          "createdAt": "2025-09-11T20:55:37Z",
+          "updatedAt": "2025-11-09T18:13:20Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/5729",
+          "number": 5729,
+          "title": "MCPToolset \"Attempted to exit cancel scope in a different task\" under to_a2a() multi-agent (A2A) — scales with concurrent McpToolset count; SSE transport is race-free",
+          "state": "closed",
+          "createdAt": "2026-05-17T02:37:27Z",
+          "updatedAt": "2026-07-29T07:21:58Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/2768",
+          "number": 2768,
+          "title": "Add SQLite-based memory service implementation",
+          "state": "closed",
+          "createdAt": "2025-08-28T03:40:03Z",
+          "updatedAt": "2025-11-05T03:35:02Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/6346",
+          "number": 6346,
+          "title": "StateSchemaError: Key '__llm_request_key__' & 'sub_agents' for Graph Workflow while using adk eval",
+          "state": "closed",
+          "createdAt": "2026-07-08T10:29:02Z",
+          "updatedAt": "2026-07-13T06:05:27Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/3253",
+          "number": 3253,
+          "title": "Fix: Make memory_service optional in CLI to match Runner implementation (Issue #3251)",
+          "state": "closed",
+          "createdAt": "2025-10-22T13:14:34Z",
+          "updatedAt": "2025-10-23T16:43:59Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/4894",
+          "number": 4894,
+          "title": "OpenTelemetry context detach errors when BaseAgent wrapper exits inner agent's run_async() early",
+          "state": "closed",
+          "createdAt": "2026-03-19T13:30:04Z",
+          "updatedAt": "2026-06-23T03:10:38Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/1227",
+          "number": 1227,
+          "title": "pydantic_core._pydantic_core.ValidationError",
+          "state": "closed",
+          "createdAt": "2025-06-07T06:36:59Z",
+          "updatedAt": "2025-10-08T05:32:19Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/4911",
+          "number": 4911,
+          "title": "fix: handle APIError code 1000 in _receive_from_model for google-genai >= 1.62.0",
+          "state": "closed",
+          "createdAt": "2026-03-20T05:05:47Z",
+          "updatedAt": "2026-03-20T06:10:19Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/1245",
+          "number": 1245,
+          "title": "Fix: Handle Pydantic v2 ValidationError in AgentLoader",
+          "state": "closed",
+          "createdAt": "2025-06-09T00:24:54Z",
+          "updatedAt": "2025-08-24T19:03:39Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/3607",
+          "number": 3607,
+          "title": "Context Detachment Errors with Human-in-the-Loop Tool Confirmation",
+          "state": "closed",
+          "createdAt": "2025-11-19T02:57:08Z",
+          "updatedAt": "2025-12-16T03:54:48Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/3708",
+          "number": 3708,
+          "title": "Bug Report: MCP Module Raises CancelledError and Prevents Custom Error Handling",
+          "state": "closed",
+          "createdAt": "2025-11-25T13:07:28Z",
+          "updatedAt": "2026-02-07T06:51:56Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/2628",
+          "number": 2628,
+          "title": "chore: add test for parallel agent to verify correct handling of exceptions",
+          "state": "closed",
+          "createdAt": "2025-08-20T14:57:44Z",
+          "updatedAt": "2025-08-21T17:43:22Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/3526",
+          "number": 3526,
+          "title": "\"Failed to load API definition\" error when using docs api from adk web server",
+          "state": "closed",
+          "createdAt": "2025-11-12T19:20:21Z",
+          "updatedAt": "2026-02-04T09:48:21Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/465",
+          "number": 465,
+          "title": "Handling exceptions in an Agent",
+          "state": "closed",
+          "createdAt": "2025-04-30T03:01:37Z",
+          "updatedAt": "2025-05-31T23:11:23Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/2752",
+          "number": 2752,
+          "title": "Sessions Not Properly Deleted when using DatabaseSessionService with SQLite",
+          "state": "closed",
+          "createdAt": "2025-08-27T00:50:04Z",
+          "updatedAt": "2025-08-30T02:07:26Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/4679",
+          "number": 4679,
+          "title": "1008 - Policy Violation when doing audio streaming and function calling simultaneously",
+          "state": "closed",
+          "createdAt": "2026-03-02T16:40:38Z",
+          "updatedAt": "2026-04-09T06:42:48Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/3136",
+          "number": 3136,
+          "title": "Persistent Hang/Stuck with FastAPI and MCPToolset (mcp-atlassian) (API endpoint)",
+          "state": "closed",
+          "createdAt": "2025-10-10T00:37:36Z",
+          "updatedAt": "2025-11-04T20:02:19Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/1112",
+          "number": 1112,
+          "title": "Using agent as tool outside of adk web doesn't exit cleanly",
+          "state": "closed",
+          "createdAt": "2025-06-03T08:24:17Z",
+          "updatedAt": "2025-11-05T23:23:45Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/501",
+          "number": 501,
+          "title": "Crash while exiting loop agent in adk web",
+          "state": "closed",
+          "createdAt": "2025-05-01T22:25:12Z",
+          "updatedAt": "2025-10-07T06:57:06Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/1850",
+          "number": 1850,
+          "title": "BadRequestError when using deepseek with output schema",
+          "state": "closed",
+          "createdAt": "2025-07-09T03:49:38Z",
+          "updatedAt": "2025-11-06T04:49:00Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/1966",
+          "number": 1966,
+          "title": "MCP Tool Call failing with Voice Agent but not with Text",
+          "state": "closed",
+          "createdAt": "2025-07-14T23:37:45Z",
+          "updatedAt": "2025-11-07T04:09:27Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/299",
+          "number": 299,
+          "title": "Quickstart Voice Timeout Error",
+          "state": "closed",
+          "createdAt": "2025-04-20T10:39:35Z",
+          "updatedAt": "2025-10-07T06:35:10Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/725",
+          "number": 725,
+          "title": "MCP Example doesn't work on Windows",
+          "state": "closed",
+          "createdAt": "2025-05-14T13:13:54Z",
+          "updatedAt": "2025-11-08T17:43:24Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/985",
+          "number": 985,
+          "title": "Issue in accessing Litellm custom endpoint",
+          "state": "closed",
+          "createdAt": "2025-05-28T07:30:42Z",
+          "updatedAt": "2025-10-07T11:06:08Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/1605",
+          "number": 1605,
+          "title": "Tool Calling with Gemini Pro and Gemini Flash",
+          "state": "closed",
+          "createdAt": "2025-06-23T20:23:07Z",
+          "updatedAt": "2025-09-16T20:04:58Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/3788",
+          "number": 3788,
+          "title": "Agent run_async hangs with \"anyio.WouldBlock\" and uncaught asyncio.CancelledError on unreachable MCP server URL",
+          "state": "closed",
+          "createdAt": "2025-12-02T13:59:40Z",
+          "updatedAt": "2025-12-03T03:14:51Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/4305",
+          "number": 4305,
+          "title": "Adk Swagger Docs not working",
+          "state": "closed",
+          "createdAt": "2025-11-24T11:19:17Z",
+          "updatedAt": "2026-01-29T23:26:15Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/2196",
+          "number": 2196,
+          "title": "RuntimeError: Attempted to exit cancel scope in a different task than it was entered in during AgentEvaluator.evaluate teardown with MCPToolset",
+          "state": "closed",
+          "createdAt": "2025-07-27T01:36:40Z",
+          "updatedAt": "2025-09-18T16:37:01Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/1321",
+          "number": 1321,
+          "title": "Local MCP wouldn't start on windows / git bash",
+          "state": "closed",
+          "createdAt": "2025-06-11T20:39:45Z",
+          "updatedAt": "2025-10-27T22:25:30Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/929",
+          "number": 929,
+          "title": "LiteLLM giving error with OpenAI models and Grafana's MCP server",
+          "state": "closed",
+          "createdAt": "2025-05-25T13:36:37Z",
+          "updatedAt": "2025-08-25T17:00:38Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/258",
+          "number": 258,
+          "title": "Call MCP to report an error",
+          "state": "closed",
+          "createdAt": "2025-04-18T00:18:29Z",
+          "updatedAt": "2025-05-31T16:16:10Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/1078",
+          "number": 1078,
+          "title": "MCPToolset (BrowserMCP) Times Out When Used Inside LoopAgent",
+          "state": "closed",
+          "createdAt": "2025-06-01T11:05:51Z",
+          "updatedAt": "2025-08-10T03:28:53Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/2655",
+          "number": 2655,
+          "title": "ADK giving error with MCP tools || parsing start time: syntax error: unexpected $end",
+          "state": "closed",
+          "createdAt": "2025-08-21T12:31:13Z",
+          "updatedAt": "2025-11-11T04:19:31Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/279",
+          "number": 279,
+          "title": "ADK LlmAgent Uses gemini-1.5-flash Despite Explicit gemini-2.5-pro Configuration",
+          "state": "closed",
+          "createdAt": "2025-04-18T21:00:02Z",
+          "updatedAt": "2025-05-28T18:46:10Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/305",
+          "number": 305,
+          "title": "Error when trying the MCP file system agent sample",
+          "state": "closed",
+          "createdAt": "2025-04-21T04:42:18Z",
+          "updatedAt": "2025-04-21T04:48:28Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/586",
+          "number": 586,
+          "title": "TypeError when using LongRunningFunctionTool: SerializationIterator is not JSON serializable during event DB insert",
+          "state": "closed",
+          "createdAt": "2025-05-06T16:06:15Z",
+          "updatedAt": "2025-10-07T07:07:45Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/1212",
+          "number": 1212,
+          "title": "Live Api with tools agents end with `extra_headers` issue",
+          "state": "closed",
+          "createdAt": "2025-06-06T13:17:10Z",
+          "updatedAt": "2025-08-14T20:40:29Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/1170",
+          "number": 1170,
+          "title": "ADK Dev UI - Graph error",
+          "state": "closed",
+          "createdAt": "2025-06-05T04:02:46Z",
+          "updatedAt": "2025-08-14T21:04:37Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/1943",
+          "number": 1943,
+          "title": "Bigquery tool fails to handle NUMERIC columns",
+          "state": "closed",
+          "createdAt": "2025-07-14T06:01:54Z",
+          "updatedAt": "2025-08-20T21:38:23Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/65",
+          "number": 65,
+          "title": "Subsequent calls with LiteLLM fails",
+          "state": "closed",
+          "createdAt": "2025-04-11T04:44:22Z",
+          "updatedAt": "2025-04-24T01:48:53Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/417",
+          "number": 417,
+          "title": "multiple tool call handling",
+          "state": "closed",
+          "createdAt": "2025-04-27T18:03:07Z",
+          "updatedAt": "2025-05-28T07:10:17Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/143",
+          "number": 143,
+          "title": "Agent can only responds once then raise exception",
+          "state": "closed",
+          "createdAt": "2025-04-13T13:55:09Z",
+          "updatedAt": "2025-04-24T01:32:52Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/585",
+          "number": 585,
+          "title": "MCPToolset.from_server fails on Windows with NotImplementedError from asyncio subprocess in Python 3.13, 3.12. 3.11",
+          "state": "closed",
+          "createdAt": "2025-05-06T15:32:23Z",
+          "updatedAt": "2025-06-08T09:55:50Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/716",
+          "number": 716,
+          "title": "Ollama tool calling incompatible issue..",
+          "state": "closed",
+          "createdAt": "2025-05-14T07:14:54Z",
+          "updatedAt": "2025-06-01T22:12:29Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/611",
+          "number": 611,
+          "title": "MCPToolset.from_server fails, raising NotImplementedError",
+          "state": "closed",
+          "createdAt": "2025-05-07T16:45:16Z",
+          "updatedAt": "2025-05-08T12:07:14Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/715",
+          "number": 715,
+          "title": "FastMCP local server causes RemoteProtocolError: \"Server disconnected without sending a response\"",
+          "state": "closed",
+          "createdAt": "2025-05-14T07:03:29Z",
+          "updatedAt": "2025-08-11T08:51:43Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/387",
+          "number": 387,
+          "title": "A problem in \"adk web\" when running agent with mcp tools : RuntimeError: error getting root agent",
+          "state": "closed",
+          "createdAt": "2025-04-25T07:09:00Z",
+          "updatedAt": "2025-05-31T18:05:23Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/1348",
+          "number": 1348,
+          "title": "Cannot add subagents and AgentTools in streaming mode. TypeError asyncio extra_headers",
+          "state": "closed",
+          "createdAt": "2025-06-12T12:11:15Z",
+          "updatedAt": "2025-07-02T16:29:42Z",
+          "pullRequest": false
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "term": "\"continue on error\"",
+      "query": "repo:google/adk-python \"continue on error\" in:title,body",
+      "totalCount": 2,
+      "hits": [
+        {
+          "url": "https://github.com/google/adk-python/pull/5483",
+          "number": 5483,
+          "title": "feat(plugins): add on_agent_error_callback and on_run_error_callback",
+          "state": "closed",
+          "createdAt": "2026-04-25T07:10:41Z",
+          "updatedAt": "2026-07-13T18:28:58Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/4005",
+          "number": 4005,
+          "title": "Tool lookup errors not gracefully handled by on_tool_error_callback",
+          "state": "closed",
+          "createdAt": "2025-12-23T07:38:39Z",
+          "updatedAt": "2025-12-23T07:42:55Z",
+          "pullRequest": false
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "term": "\"partial failure\"",
+      "query": "repo:google/adk-python \"partial failure\" in:title,body",
+      "totalCount": 4,
+      "hits": [
+        {
+          "url": "https://github.com/google/adk-python/issues/5643",
+          "number": 5643,
+          "title": "Proposal: Add built-in tool_parameter_match evaluator",
+          "state": "open",
+          "createdAt": "2026-05-08T10:46:20Z",
+          "updatedAt": "2026-07-24T20:25:25Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/3355",
+          "number": 3355,
+          "title": "Tool Failure Crashes Entire ADK Multi-Agent Workflow",
+          "state": "closed",
+          "createdAt": "2025-11-01T22:33:30Z",
+          "updatedAt": "2026-03-05T06:12:25Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/6358",
+          "number": 6358,
+          "title": "feat(optimization): run-scoped usage, budget, and cancellation contracts (RFC #6357, PR 1/2)",
+          "state": "closed",
+          "createdAt": "2026-07-10T09:53:14Z",
+          "updatedAt": "2026-07-13T18:29:14Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/742",
+          "number": 742,
+          "title": "MCP Tool Failure Crashes Entire ADK Multi-Agent Workflow",
+          "state": "closed",
+          "createdAt": "2025-05-15T09:47:14Z",
+          "updatedAt": "2025-05-20T04:42:43Z",
+          "pullRequest": false
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "term": "\"stale issue automation\"",
+      "query": "repo:google/adk-python \"stale issue automation\" in:title,body",
+      "totalCount": 0,
+      "hits": []
+    },
+    {
+      "index": 26,
+      "term": "\"issue monitoring agent\"",
+      "query": "repo:google/adk-python \"issue monitoring agent\" in:title,body",
+      "totalCount": 10,
+      "hits": [
+        {
+          "url": "https://github.com/google/adk-python/pull/4622",
+          "number": 4622,
+          "title": "Feat/Issue Monitoring Agent",
+          "state": "closed",
+          "createdAt": "2026-02-25T11:24:40Z",
+          "updatedAt": "2026-05-26T17:52:54Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/5697",
+          "number": 5697,
+          "title": "fix(samples): use configurable model name to resolve 404 errors in triaging agents",
+          "state": "closed",
+          "createdAt": "2026-05-13T20:17:38Z",
+          "updatedAt": "2026-05-16T17:59:24Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/4967",
+          "number": 4967,
+          "title": "chore(release/candidate): release 1.28.0",
+          "state": "closed",
+          "createdAt": "2026-03-23T22:04:45Z",
+          "updatedAt": "2026-03-24T23:32:16Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/5696",
+          "number": 5696,
+          "title": "Triaging agent workflows fail with 404 on gemini-2.5-pro via Gemini Developer API",
+          "state": "closed",
+          "createdAt": "2026-05-13T19:16:31Z",
+          "updatedAt": "2026-05-14T05:04:40Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/5011",
+          "number": 5011,
+          "title": "chore(release/candidate): release 1.28.0",
+          "state": "closed",
+          "createdAt": "2026-03-26T20:10:46Z",
+          "updatedAt": "2026-04-26T02:48:40Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/5118",
+          "number": 5118,
+          "title": "chore(release/candidate): release 1.28.0",
+          "state": "closed",
+          "createdAt": "2026-04-02T18:31:47Z",
+          "updatedAt": "2026-04-09T18:32:23Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/5002",
+          "number": 5002,
+          "title": "chore(release/candidate): release 1.28.0",
+          "state": "closed",
+          "createdAt": "2026-03-26T01:20:45Z",
+          "updatedAt": "2026-03-26T02:15:42Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/5014",
+          "number": 5014,
+          "title": "chore(release/candidate): release 1.28.0",
+          "state": "closed",
+          "createdAt": "2026-03-26T22:30:56Z",
+          "updatedAt": "2026-03-26T23:00:33Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/4831",
+          "number": 4831,
+          "title": "chore(release/candidate): release 1.27.0",
+          "state": "closed",
+          "createdAt": "2026-03-13T21:44:05Z",
+          "updatedAt": "2026-03-13T22:29:48Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/4830",
+          "number": 4830,
+          "title": "chore(release/candidate): release 1.27.0",
+          "state": "closed",
+          "createdAt": "2026-03-13T19:31:01Z",
+          "updatedAt": "2026-03-13T19:38:25Z",
+          "pullRequest": true
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "term": "\"issue processing\"",
+      "query": "repo:google/adk-python \"issue processing\" in:title,body",
+      "totalCount": 11,
+      "hits": [
+        {
+          "url": "https://github.com/google/adk-python/issues/2466",
+          "number": 2466,
+          "title": "Claude in Vertex AI does not support GCS or URL-based file ingestion via ADK",
+          "state": "open",
+          "createdAt": "2025-08-11T09:06:57Z",
+          "updatedAt": "2026-03-26T00:58:01Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/5245",
+          "number": 5245,
+          "title": "Bug: change_issue_type API returns 200 but type is not updated in UI",
+          "state": "closed",
+          "createdAt": "2026-04-10T18:32:58Z",
+          "updatedAt": "2026-04-22T06:14:37Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/2588",
+          "number": 2588,
+          "title": "fix: double function response processing issue",
+          "state": "closed",
+          "createdAt": "2025-08-18T11:04:46Z",
+          "updatedAt": "2025-11-22T17:34:17Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/4565",
+          "number": 4565,
+          "title": "Syntax Error - LlmRequest Object has no attribute 'content' while using callback logging feature.",
+          "state": "closed",
+          "createdAt": "2026-02-20T09:30:31Z",
+          "updatedAt": "2026-07-23T17:03:59Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/4024",
+          "number": 4024,
+          "title": "fix: persist inline_data replacement across turns when optimize_data_file=True",
+          "state": "closed",
+          "createdAt": "2025-12-26T08:56:23Z",
+          "updatedAt": "2026-05-12T01:50:09Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/3318",
+          "number": 3318,
+          "title": "Remove restriction: output_schema should coexist with agent transfer configurations",
+          "state": "closed",
+          "createdAt": "2025-10-28T17:20:22Z",
+          "updatedAt": "2026-01-20T09:37:31Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/3700",
+          "number": 3700,
+          "title": "fix: Optimize Stale Agent with GraphQL and Search API to resolve 429 Quota errors",
+          "state": "closed",
+          "createdAt": "2025-11-24T22:17:23Z",
+          "updatedAt": "2025-12-02T19:40:56Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/4091",
+          "number": 4091,
+          "title": "[Bug] LiteLlm adapter silently drops non-function_response parts in multipart Content",
+          "state": "closed",
+          "createdAt": "2026-01-07T17:00:21Z",
+          "updatedAt": "2026-01-09T18:57:56Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/pull/1420",
+          "number": 1420,
+          "title": "feat: ADK Web Async Agent Compatibility",
+          "state": "closed",
+          "createdAt": "2025-06-15T17:29:34Z",
+          "updatedAt": "2025-10-03T23:23:56Z",
+          "pullRequest": true
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/1306",
+          "number": 1306,
+          "title": "LiteLLM streaming not truly asynchronous - returns batch processed chunks",
+          "state": "closed",
+          "createdAt": "2025-06-11T10:13:26Z",
+          "updatedAt": "2025-06-23T17:30:17Z",
+          "pullRequest": false
+        },
+        {
+          "url": "https://github.com/google/adk-python/issues/1055",
+          "number": 1055,
+          "title": "Unable to use MCP tools",
+          "state": "closed",
+          "createdAt": "2025-05-30T15:06:57Z",
+          "updatedAt": "2025-05-31T20:20:12Z",
+          "pullRequest": false
+        }
+      ]
+    }
+  ]
+}

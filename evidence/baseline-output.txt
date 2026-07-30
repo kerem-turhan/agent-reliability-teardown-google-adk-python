@@ -1,0 +1,63 @@
+MODE=baseline
+EVIDENCE_CLASS=synthetic-orchestration
+NETWORK_REQUIRED=false
+SECRET_REQUIRED=false
+INFO --- Starting Stale Bot for synthetic-owner/synthetic-repo ---
+INFO Concurrency level set to 3
+INFO Found 3 issues to process. (Initial search used 0 API calls).
+INFO --- Starting chunk 1: Processing issues [101, 202, 303] ---
+INFO Processing Issue #101...
+ERROR Error processing issue #101: synthetic runner failure
+Traceback (most recent call last):
+  File "<target>/contributing/samples/adk_team/adk_stale_agent/main.py", line 75, in process_single_issue
+    async for event in runner.run_async(
+    ...<10 lines>...
+          logger.info(f"#{issue_number} Decision: {clean_text}...")
+  File "<repo>/harness/adk_fakes.py", line 52, in run_async
+    raise RuntimeError("synthetic runner failure")
+RuntimeError: synthetic runner failure
+INFO Issue #101 finished in 0.00s with ~0 API calls.
+INFO Processing Issue #202...
+ERROR Error processing issue #202: synthetic runner failure
+Traceback (most recent call last):
+  File "<target>/contributing/samples/adk_team/adk_stale_agent/main.py", line 75, in process_single_issue
+    async for event in runner.run_async(
+    ...<10 lines>...
+          logger.info(f"#{issue_number} Decision: {clean_text}...")
+  File "<repo>/harness/adk_fakes.py", line 52, in run_async
+    raise RuntimeError("synthetic runner failure")
+RuntimeError: synthetic runner failure
+INFO Issue #202 finished in 0.00s with ~0 API calls.
+INFO Processing Issue #303...
+ERROR Error processing issue #303: synthetic runner failure
+Traceback (most recent call last):
+  File "<target>/contributing/samples/adk_team/adk_stale_agent/main.py", line 75, in process_single_issue
+    async for event in runner.run_async(
+    ...<10 lines>...
+          logger.info(f"#{issue_number} Decision: {clean_text}...")
+  File "<repo>/harness/adk_fakes.py", line 52, in run_async
+    raise RuntimeError("synthetic runner failure")
+RuntimeError: synthetic runner failure
+INFO Issue #303 finished in 0.00s with ~0 API calls.
+INFO --- Finished chunk 1. Progress: 3/3 ---
+INFO --- Stale Agent Run Finished ---
+INFO Successfully processed 3 issues.
+INFO Total API calls made this run: 0
+INFO Average processing time per issue: 0.00 seconds.
+INFO Full audit finished in 0.00 minutes.
+STALE_MAIN_EXIT_CODE=0
+SIBLING_RETURNED_AFTER_ERROR=true
+ERROR Error processing issue #404: synthetic sibling fetch failure
+Traceback (most recent call last):
+  File "<target>/contributing/samples/adk_team/adk_issue_monitoring_agent/main.py", line 52, in process_single_issue
+    issue = get_issue_details(OWNER, REPO, issue_number)
+  File "<repo>/harness/adk_fakes.py", line 134, in fail_issue_details
+    raise RuntimeError("synthetic sibling fetch failure")
+RuntimeError: synthetic sibling fetch failure
+SIBLING_CHECK_EXIT_CODE=0
+PASS three injected stale-agent failures
+PASS batch reports all three as processed
+PASS no failure list in the summary
+PASS frozen entry point exits 0
+PASS sibling returns its normal metrics tuple after an error
+PASS output carries no local home path

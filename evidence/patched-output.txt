@@ -1,0 +1,74 @@
+MODE=patched
+EVIDENCE_CLASS=synthetic-orchestration
+NETWORK_REQUIRED=false
+SECRET_REQUIRED=false
+INFO --- Starting Stale Bot for synthetic-owner/synthetic-repo ---
+INFO Concurrency level set to 3
+INFO Found 3 issues to process. (Initial search used 0 API calls).
+INFO --- Starting chunk 1: Processing issues [101, 202, 303] ---
+INFO Processing Issue #101...
+ERROR Error processing issue #101: synthetic runner failure
+Traceback (most recent call last):
+  File "<target>/contributing/samples/adk_team/adk_stale_agent/main.py", line 77, in process_single_issue
+    async for event in runner.run_async(
+    ...<10 lines>...
+          logger.info(f"#{issue_number} Decision: {clean_text}...")
+  File "<repo>/harness/adk_fakes.py", line 52, in run_async
+    raise RuntimeError("synthetic runner failure")
+RuntimeError: synthetic runner failure
+INFO Issue #101 finished in 0.00s with ~0 API calls.
+INFO Processing Issue #202...
+ERROR Error processing issue #202: synthetic runner failure
+Traceback (most recent call last):
+  File "<target>/contributing/samples/adk_team/adk_stale_agent/main.py", line 77, in process_single_issue
+    async for event in runner.run_async(
+    ...<10 lines>...
+          logger.info(f"#{issue_number} Decision: {clean_text}...")
+  File "<repo>/harness/adk_fakes.py", line 52, in run_async
+    raise RuntimeError("synthetic runner failure")
+RuntimeError: synthetic runner failure
+INFO Issue #202 finished in 0.00s with ~0 API calls.
+INFO Processing Issue #303...
+ERROR Error processing issue #303: synthetic runner failure
+Traceback (most recent call last):
+  File "<target>/contributing/samples/adk_team/adk_stale_agent/main.py", line 77, in process_single_issue
+    async for event in runner.run_async(
+    ...<10 lines>...
+          logger.info(f"#{issue_number} Decision: {clean_text}...")
+  File "<repo>/harness/adk_fakes.py", line 52, in run_async
+    raise RuntimeError("synthetic runner failure")
+RuntimeError: synthetic runner failure
+INFO Issue #303 finished in 0.00s with ~0 API calls.
+INFO --- Finished chunk 1. Progress: 3/3 ---
+INFO --- Stale Agent Run Finished ---
+INFO Successfully processed 0 issues.
+INFO Total API calls made this run: 0
+INFO Average processing time per issue: 0.00 seconds.
+ERROR Failed to process 3 issues: [101, 202, 303]
+CRITICAL Unexpected fatal error: 3 of 3 issue audits failed: [101, 202, 303]
+Traceback (most recent call last):
+  File "<target>/contributing/samples/adk_team/adk_stale_agent/main.py", line 206, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "<python>/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "<python>/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "<python>/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "<target>/contributing/samples/adk_team/adk_stale_agent/main.py", line 195, in main
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: 3 of 3 issue audits failed: [101, 202, 303]
+INFO Full audit finished in 0.00 minutes.
+STALE_MAIN_EXIT_CODE=1
+PASS three injected stale-agent failures
+PASS batch reports zero successes
+PASS batch lists the failed issues
+PASS no false success summary
+PASS patched entry point exits non-zero
+PASS output carries no local home path

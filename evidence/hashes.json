@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "algorithm": "sha256",
+  "files": {
+    "evidence/baseline-output.txt": "5674a6e622a9b90c1152737bacdb574f3ff01ee7204637c71fb5ee79a63586cf",
+    "evidence/patched-output.txt": "a49429b69450c3c0fb9cd2e5fe3fba40f1b6af237942af40475f9e25e91cd681",
+    "evidence/red-green-summary.md": "e04411372e54bf97607150c5824c6e8c8c486eb870ff1bc88e64073dafa54ec6",
+    "evidence/duplicate-scan-2026-07-30.json": "8b1e1b393d7f4d73cc683b9f023ed2ad03260f567541196c04b51fd5199dabc7",
+    "patches/adk_stale_agent-fail-closed.patch": "e052c4fe80b5e735488979b8ecbafbd36c3a23a0e7f97f2b0d60a2b31a60ac8a"
+  },
+  "frozenTargetFile": {
+    "path": "contributing/samples/adk_team/adk_stale_agent/main.py",
+    "sha256": "4f1ec042f89c56b2ce74a6e78de251813dc18c93baafd1ac770f8fa9a62d6b24"
+  }
+}

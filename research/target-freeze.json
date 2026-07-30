@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "frozenAt": "2026-07-30T11:56:51+03:00",
+  "resultsRunBeforeFreeze": false,
+  "repository": "google/adk-python",
+  "repositoryUrl": "https://github.com/google/adk-python",
+  "defaultBranch": "main",
+  "commitSha": "20842eb8e035a6e128b7585ca81f4625e00147c2",
+  "commitUrl": "https://github.com/google/adk-python/commit/20842eb8e035a6e128b7585ca81f4625e00147c2",
+  "treeSha": "00cbdca6d8280196df4e65b0af867d55c2cad0f4",
+  "license": "Apache-2.0",
+  "licenseUrl": "https://github.com/google/adk-python/blob/20842eb8e035a6e128b7585ca81f4625e00147c2/LICENSE",
+  "slice": [
+    "contributing/samples/adk_team/adk_stale_agent",
+    "contributing/samples/adk_team/adk_issue_monitoring_agent/main.py",
+    ".github/workflows/issue-maintenance.yml"
+  ]
+}

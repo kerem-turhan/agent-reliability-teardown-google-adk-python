@@ -1,0 +1,19 @@
+{
+  "name": "agent-reliability-teardown-google-adk-python",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "evidence:check": "node scripts/check-evidence.mjs",
+    "evidence:hash": "node scripts/hash-evidence.mjs",
+    "scan:release": "node scripts/scan-release.mjs",
+    "scan:release:test": "node scripts/test-scan-release.mjs",
+    "target:checkout": "node scripts/checkout-target.mjs",
+    "repro:offline": "node scripts/repro-offline.mjs --mode=baseline",
+    "verify-fix": "node scripts/verify-fix.mjs",
+    "verify": "npm run target:checkout && npm run repro:offline && npm run verify-fix && npm run evidence:check && npm run scan:release:test && npm run scan:release"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

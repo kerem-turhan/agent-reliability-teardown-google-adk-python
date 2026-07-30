@@ -1,0 +1,108 @@
+diff --git a/contributing/samples/adk_team/adk_stale_agent/main.py b/contributing/samples/adk_team/adk_stale_agent/main.py
+index f61f87f3..cd0fcafe 100644
+--- a/contributing/samples/adk_team/adk_stale_agent/main.py
++++ b/contributing/samples/adk_team/adk_stale_agent/main.py
+@@ -37,7 +37,7 @@ APP_NAME = "stale_bot_app"
+ USER_ID = "stale_bot_user"
+ 
+ 
+-async def process_single_issue(issue_number: int) -> Tuple[float, int]:
++async def process_single_issue(issue_number: int) -> Tuple[bool, float, int]:
+   """
+   Processes a single GitHub issue using the AI agent and logs execution metrics.
+ 
+@@ -45,7 +45,8 @@ async def process_single_issue(issue_number: int) -> Tuple[float, int]:
+       issue_number (int): The GitHub issue number to audit.
+ 
+   Returns:
+-      Tuple[float, int]: A tuple containing:
++      Tuple[bool, float, int]: A tuple containing:
++          - succeeded (bool): Whether the audit ran without raising.
+           - duration (float): Time taken to process the issue in seconds.
+           - api_calls (int): The number of API calls made during this specific execution.
+ 
+@@ -55,6 +56,7 @@ async def process_single_issue(issue_number: int) -> Tuple[float, int]:
+   start_time = time.perf_counter()
+ 
+   start_api_calls = get_api_call_count()
++  succeeded = True
+ 
+   logger.info(f"Processing Issue #{issue_number}...")
+   logger.debug(f"#{issue_number}: Initializing runner and session.")
+@@ -86,6 +88,7 @@ async def process_single_issue(issue_number: int) -> Tuple[float, int]:
+           logger.info(f"#{issue_number} Decision: {clean_text}...")
+ 
+   except Exception as e:
++    succeeded = False
+     logger.error(f"Error processing issue #{issue_number}: {e}", exc_info=True)
+ 
+   duration = time.perf_counter() - start_time
+@@ -98,7 +101,7 @@ async def process_single_issue(issue_number: int) -> Tuple[float, int]:
+       f"with ~{issue_api_calls} API calls."
+   )
+ 
+-  return duration, issue_api_calls
++  return succeeded, duration, issue_api_calls
+ 
+ 
+ async def main():
+@@ -138,6 +141,7 @@ async def main():
+   total_processing_time = 0.0
+   total_issue_api_calls = 0
+   processed_count = 0
++  failed_issues = []
+ 
+   # Process the list in chunks of size CONCURRENCY_LIMIT
+   for i in range(0, total_count, CONCURRENCY_LIMIT):
+@@ -152,14 +156,18 @@ async def main():
+ 
+     results = await asyncio.gather(*tasks)
+ 
+-    for duration, api_calls in results:
++    for issue_number, (succeeded, duration, api_calls) in zip(chunk, results):
+       total_processing_time += duration
+       total_issue_api_calls += api_calls
++      if succeeded:
++        processed_count += 1
++      else:
++        failed_issues.append(issue_number)
+ 
+-    processed_count += len(chunk)
++    attempted_count = processed_count + len(failed_issues)
+     logger.info(
+         f"--- Finished chunk {current_chunk_num}. Progress:"
+-        f" {processed_count}/{total_count} ---"
++        f" {attempted_count}/{total_count} ---"
+     )
+ 
+     if (i + CONCURRENCY_LIMIT) < total_count:
+@@ -180,16 +188,29 @@ async def main():
+       f"Average processing time per issue: {avg_time_per_issue:.2f} seconds."
+   )
+ 
++  if failed_issues:
++    logger.error(
++        f"Failed to process {len(failed_issues)} issues: {failed_issues}"
++    )
++    raise RuntimeError(
++        f"{len(failed_issues)} of {total_count} issue audits failed:"
++        f" {failed_issues}"
++    )
++
+ 
+ if __name__ == "__main__":
+   start_time = time.perf_counter()
++  exit_code = 0
+ 
+   try:
+     asyncio.run(main())
+   except KeyboardInterrupt:
+     logger.warning("Bot execution interrupted manually.")
++    exit_code = 130
+   except Exception as e:
+     logger.critical(f"Unexpected fatal error: {e}", exc_info=True)
++    exit_code = 1
+ 
+   duration = time.perf_counter() - start_time
+   logger.info(f"Full audit finished in {duration/60:.2f} minutes.")
++  raise SystemExit(exit_code)
