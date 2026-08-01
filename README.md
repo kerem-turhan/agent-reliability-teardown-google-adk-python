@@ -26,8 +26,13 @@ The target is [`google/adk-python`](https://github.com/google/adk-python), froze
 `20842eb8e035a6e128b7585ca81f4625e00147c2` (Apache-2.0). At that commit,
 `.github/workflows/issue-maintenance.yml` runs this module daily with `issues: write`.
 
+## Upstream status
+
 Reported upstream first: [google/adk-python#6520](https://github.com/google/adk-python/issues/6520),
-filed before this repository was published.
+filed before this repository was published. The issue is open. A project collaborator reproduced
+the behavior using the reproduction steps in that report, and a separate upstream fix pull request,
+[#6521](https://github.com/google/adk-python/pull/6521), is in review. Nothing described here is
+merged upstream, and the patch in this repository was not submitted as a pull request.
 
 ## Evidence boundary
 
@@ -38,8 +43,8 @@ production frequency, security impact, or the ADK package as a whole, and it doe
 a real scheduled run has hit this path.
 
 The patch is applied to the ignored working checkout for one verification run and reversed
-afterwards. It is not vendored, and the upstream project has neither reviewed nor accepted
-it.
+afterwards. It is not vendored. For where the upstream report stands, see
+[Upstream status](#upstream-status).
 
 ## What the patch changes
 
@@ -90,6 +95,9 @@ official `openai/openai-agents-js` example and reported as
 teardown, with its own six-case harness, is at
 [agent-reliability-teardown-openai-agents-js](https://github.com/kerem-turhan/agent-reliability-teardown-openai-agents-js).
 Two vendors, two frozen commits, the same accounting mistake.
+
+The pattern itself, with a checklist for probing your own agent for it, is written up there:
+[docs/FIELD-GUIDE.md](https://github.com/kerem-turhan/agent-reliability-teardown-openai-agents-js/blob/main/docs/FIELD-GUIDE.md).
 
 ## License and attribution
 

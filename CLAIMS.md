@@ -28,4 +28,6 @@ verifiable against upstream at any time; the ordering is not.
   that file and its batch outcome was not measured.
 - `main()` also returns early when the initial issue-list fetch raises. That adjacent path
   is left outside this patch, which stays scoped to what was reported upstream.
-- The upstream project has neither reviewed nor accepted the patch.
+- The patch in this repository was not submitted upstream and has not been accepted. The
+  report itself was reproduced by a project collaborator and a separate upstream fix pull
+  request is in review; nothing here claims it merged. See the README's upstream status.

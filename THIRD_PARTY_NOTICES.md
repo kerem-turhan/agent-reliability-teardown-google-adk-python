@@ -21,8 +21,8 @@ ignored `.work/` directory at the frozen commit.
 above, which is licensed under the Apache License 2.0. The patch is a
 derivative work of that file and is offered under the same license, as section 4
 of that license requires. It is applied only to the ignored working checkout,
-for the duration of one verification run, and reversed afterwards. The upstream
-project has neither reviewed nor accepted it.
+for the duration of one verification run, and reversed afterwards. It was not
+submitted upstream and has not been accepted there.
 
 This repository is licensed under the Apache License 2.0 (see `LICENSE`) so that
 the patch and the frozen file it modifies carry the same terms.
