@@ -14,7 +14,7 @@ command cannot check what its row claims, it exits non-zero rather than printing
 | The stale job is scheduled daily with `issues: write`. | Frozen `.github/workflows/issue-maintenance.yml` lines 17–20 and 38–40 | `npm run target:checkout && sed -n '17,40p' .work/upstream/.github/workflows/issue-maintenance.yml` |
 | A 27-query scan found related maintenance work but no prior title/body report of this false-success combination. | `research/duplicate-scan.md`; `evidence/duplicate-scan-2026-07-30.json` | Commands in `research/duplicate-scan.md` |
 | The behavior was reported upstream before this repository was published. | [google/adk-python#6520](https://github.com/google/adk-python/issues/6520) | Open the issue |
-| The release guard detects its own breakage rather than passing over it. | `scripts/test-scan-release.mjs`, 13 tamper probes | `npm run scan:release:test` |
+| The release guard detects its own breakage rather than passing over it. | `scripts/test-scan-release.mjs`, 11 tamper probes | `npm run scan:release:test` |
 
 This release is published from a parentless history, so the ordering above is asserted by the
 freeze record rather than provable from commit dates here. The frozen commit itself is
