@@ -29,10 +29,14 @@ The target is [`google/adk-python`](https://github.com/google/adk-python), froze
 ## Upstream status
 
 Reported upstream first: [google/adk-python#6520](https://github.com/google/adk-python/issues/6520),
-filed before this repository was published. The issue is open. A project collaborator reproduced
-the behavior using the reproduction steps in that report, and a separate upstream fix pull request,
-[#6521](https://github.com/google/adk-python/pull/6521), is in review. Nothing described here is
-merged upstream, and the patch in this repository was not submitted as a pull request.
+filed before this repository was published. A project collaborator reproduced the behavior using
+the report's steps. On 12 August 2026, upstream commit
+[`5418b731`](https://github.com/google/adk-python/commit/5418b731564743aa7b981fd77741fb1cb5242faa)
+landed on `main` and closed the issue with separate tests and a fail-closed process exit. The earlier
+fix pull request [#6521](https://github.com/google/adk-python/pull/6521) remains open and unmerged,
+so it is not the landed path. As of 13 August, the latest stable release (`v2.6.3`) predates the fix;
+release-candidate PR [#6700](https://github.com/google/adk-python/pull/6700) targets `v2.7.0`.
+The patch in this repository was not submitted as a pull request.
 
 ## Evidence boundary
 
